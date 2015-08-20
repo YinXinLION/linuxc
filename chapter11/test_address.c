@@ -69,7 +69,7 @@ int main(void)
     }
     
     //示例使用inet_lnaof()和inet_netof()函数
-    host = inet_netof(in);
+    host = inet_lnaof(in);
     network = inet_netof(in);
 
     printf("inet_lnaof:\t0x%x\n", host);
